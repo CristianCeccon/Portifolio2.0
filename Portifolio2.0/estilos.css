@@ -1,0 +1,56 @@
+.principal {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.coluna {
+    float: left;
+    width: 25%;
+}
+
+.content {
+    background-color: rgba(95, 88, 88, 0.795);
+    padding: 15px;
+}
+
+.borda {
+    border-radius: 20px;
+    max-height: 64vh;
+}
+
+.perfil {
+    border-radius: 150px;
+    height: 250px
+}
+
+.perfil:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoImagem {
+    width: 60px;
+    transition: 150ms;
+}
+
+.logoImagem:hover {
+    transform: translate(1vh, -1vh);
+    width: 65px;
+}
+
+.imagemSlide {
+    transition: 150ms;
+}
+
+.imagemSlide:hover {
+    transform: scale(1.2);
+}
